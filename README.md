@@ -49,4 +49,63 @@ So, total time taken T (n) = T (n-1)+ 1 + T(n-1)
 
 
 ````
+
+### Our Equation will be
+
+````
+
+T(n) = 2T(n-1) + 1
+
+T(n) = 2T(n-1) + 1 ———- (1)
+
+after putting n = n-1 in eq 1, Equation will become
+
+T(n-1) = 2T(n-2) + 1 ———— (2)
+
+after putting n = n-2 in eq 1, Equation will become
+
+T(n-2) = 2T(n-3) + 1 ———— (3)
+
+Put the value of T(n-2) in the equation–2 with help of equation-3
+
+T(n-1) = 2T(2T(n-3) + 1) + 1
+
+Put the value of T(n-1) in equation-1 with help of equation-4
+
+T(n) = 2(2(2T(n-3)+1)+1)+1
+
+T(n) = 2^3T(n-3) + 2^2 + 2^1 + 1
+
+After Generalization
+
+T(n) = 2^k T(n-k) + 2^(k-1) + 2^(k-2) + ………. + 2^2 + 2^1 + 2^0
+
+From our base condition T(1) =1
+
+n – k = 1
+k = n-1
+
+Now put k = n-1 in above equation
+
+T(n) = 2^(n-1) T(n-(n-1)) + 2^(k-1) + 2^(k-2) + ………. + 2^2 + 2^1 + 2^0
+
+T(n) = 2^(k)(1) + 2^(k-1) + 2^(k-2) + ………. + 2^2 + 2^1 + 2^0
+
+It is in a GP with Common ratio r = 2
+
+First term, a=(2^0).1
+
+Sum of G.P. = Sn = a(1-r^n) / (1-r)
+
+T(n) = 1.(1-2^(i+1))/(1-2)
+
+T(n) = 2^(i+1) – 1
+
+From the above equation
+
+T(n) = 2^ (n-1+1) – 1
+
+T(n) = 2^n – 1 (this is the equation which will give the number of disk movement is required )
+
+````
  
