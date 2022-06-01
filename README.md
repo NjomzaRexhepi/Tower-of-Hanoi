@@ -44,9 +44,9 @@ START
 
 
 ````
-```
+
 So, total time taken T (n) = T (n-1)+ 1 + T(n-1)
 
-```
+
 ````
  
