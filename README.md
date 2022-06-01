@@ -6,3 +6,9 @@ There is a story about an Indian temple which contains a large room with three o
 
 
 The Tower of Hanoi is a mathematical Puzzle that consists of three towers(pegs) and multiple disks. Initially, all the disks are placed on one rod. And these disks are arranged on one over the other in ascending order of size.
+
+
+## Steps to be followed as below
+Step 1 − Move n-1 disks from source to aux
+Step 2 − Move nth disk from source to dest
+Step 3 − Move n-1 disks from aux to dest
