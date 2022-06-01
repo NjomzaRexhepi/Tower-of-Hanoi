@@ -9,6 +9,9 @@ The Tower of Hanoi is a mathematical Puzzle that consists of three towers(pegs) 
 
 
 ## Steps to be followed as below
+
 Step 1 − Move n-1 disks from source to aux
+
 Step 2 − Move nth disk from source to dest
+
 Step 3 − Move n-1 disks from aux to dest
