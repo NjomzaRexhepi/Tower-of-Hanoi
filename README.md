@@ -109,3 +109,11 @@ T(n) = 2^n – 1 (this is the equation which will give the number of disk moveme
 
 ````
  
+ 
+ ### Time Complexity
+ 
+ ````
+ It is a GP series, and the sum is 2^n – 1
+
+T(n)= O( 2^n – 1) , or We can say time complexity is O(2^n) which is exponential.
+````
