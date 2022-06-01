@@ -15,3 +15,20 @@ Step 1 − Move n-1 disks from source to aux
 Step 2 − Move nth disk from source to dest
 
 Step 3 − Move n-1 disks from aux to dest
+
+
+## Recursive algorithm to solve Tower Of Hanoi Puzzle
+
+```c++
+START
+ Procedure TOH(disk, source, dest, aux)
+ IF disk == 1, THEN
+       move disk from source to dest             
+    ELSE
+       TOH(disk - 1, source, aux, dest)     // Step 1
+       moveDisk(source to dest)          // Step 2
+       TOH(disk - 1, aux, dest, source)     // Step 3
+    END IF
+ END Procedure
+ STOP
+```
