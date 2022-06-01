@@ -32,3 +32,21 @@ START
  END Procedure
  STOP
 ```
+
+
+## Complexity Analysis of Tower Of Hanoi
+
+- Moving n-1 disks from source to aux means the first peg to the second peg (in our case). This can be done in T (n-1) steps.
+
+- Moving the nth disk from source to dest means a larger disk from the first peg to the third peg will require 1 step.
+
+- Moving n-1 disks from aux to dest means the second peg to the third peg (in our example) will require again T (n-1) step.
+
+
+````
+```
+So, total time taken T (n) = T (n-1)+ 1 + T(n-1)
+
+```
+````
+ 
