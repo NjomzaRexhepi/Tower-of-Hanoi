@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{6391328a-9168-4b4d-a127-5a6246c2c9b1}</ProjectGuid>
-    <RootNamespace>detyredaa</RootNamespace>
+    <RootNamespace>Tower-of-Hanoi-algorithm</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
