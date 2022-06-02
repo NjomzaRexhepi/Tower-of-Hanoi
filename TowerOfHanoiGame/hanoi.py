@@ -65,6 +65,11 @@ class Game:
         towers = [self.tower_one, self.tower_two, self.tower_three]
         
         disk_index = 0
+        # Print the first element of every tower's .disks list
+        # Print the second element of every tower's .disks list
+        # etc.
+        #
+        # Note that all Towers have the same number of Disks.
         while disk_index < len(towers[0].disks):
             for tower in towers:
                 if tower[disk_index] == EMPTY:
@@ -115,6 +120,7 @@ class Tower:
             raise InvalidFirstMoveError('1st move must be from Tower 1.')
         
         this_tower_topmost_disk = self._get_and_remove_smallest_disk()
+        
         farthest_empty_index_down = (
             other_tower.get_bottommost_empty_space_index())
         
