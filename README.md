@@ -122,7 +122,7 @@ T(0) = k
 T(1) = 2k
 T(2) = 3k
 T(3) = 4k
-
+So the space complexity is O(n). 
 ````
 [Diellza Berisha](https://github.com/Dielllza1)
 [Ereblina Berisha](https://github.com/erblinaberisha)
