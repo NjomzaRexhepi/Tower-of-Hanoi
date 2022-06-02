@@ -137,10 +137,15 @@ class Tower:
         
         if (other_tower_topmost_disk is not None and
         not this_tower_topmost_disk.is_smaller_than(other_tower_topmost_disk)):
+            # Since we removed this_tower_smallest_disk at the
+            # beginning, we have to put it back where it was before
+            # now that we know the move we just made is invalid.
             self[self.index_of_smallest_disk] = this_tower_topmost_disk
             raise InvalidMoveError("can't move bigger Disks on top of "
                                    + 'smaller Disks.')
 
+        # Put this_tower_topmost_disk as far up as possible in
+        # other_tower
         other_tower[farthest_empty_index_down] = this_tower_topmost_disk
     
     def _get_and_remove_smallest_disk(self) -> Disk:
