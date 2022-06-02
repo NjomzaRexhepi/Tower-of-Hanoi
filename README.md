@@ -115,7 +115,15 @@ T(n) = 2^n – 1 (this is the equation which will give the number of disk moveme
 
 T(n)= O( 2^n – 1) , or We can say time complexity is O(2^n) which is exponential.
 ````
+### Space Complexity
+````
+T(n) = T(n-1) + k
+T(0) = k
+T(1) = 2k
+T(2) = 3k
+T(3) = 4k
 
+````
 [Diellza Berisha](https://github.com/Dielllza1)
 [Ereblina Berisha](https://github.com/erblinaberisha)
 [Nida Islami](https://github.com/nidaislami)
