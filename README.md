@@ -119,5 +119,5 @@ T(n)= O( 2^n – 1) , or We can say time complexity is O(2^n) which is exponenti
 [Diellza Berisha](https://github.com/Dielllza1)
 [Ereblina Berisha](https://github.com/erblinaberisha)
 [Nida Islami](https://github.com/nidaislami)
-
+[Njomza Rexhepi](https://github.com/NjomzaRexhepi)
 
