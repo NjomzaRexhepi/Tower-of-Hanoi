@@ -121,6 +121,15 @@ class Tower:
         
         this_tower_topmost_disk = self._get_and_remove_smallest_disk()
         
+        # Because Disks have to go down as far as possible into
+        # other_tower, we must put smallest_disk into the biggest index
+        # of other_tower.disks where other_tower[smallest_disk] is
+        # empty.
+        #
+        # Note that due to the way the Tower of Hanoi is structured,
+        # there is never an instance in which we are trying to move
+        # a Disk into a Tower already full of Disks. Only one Tower
+        # can be full of Disks at any time.
         farthest_empty_index_down = (
             other_tower.get_bottommost_empty_space_index())
         
