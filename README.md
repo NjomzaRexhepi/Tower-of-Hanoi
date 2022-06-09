@@ -128,6 +128,7 @@ T(1) = 2k
 T(2) = 3k
 T(3) = 4k
 So the space complexity is O(n).
+Here time complexity is exponential but space complexity is linear .
 
 
 ````
