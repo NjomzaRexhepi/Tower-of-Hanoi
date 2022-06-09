@@ -122,6 +122,14 @@ Space for parameter for each call is independent of n i.e., constant. Let it be 
 When we do the 2nd recursive call 1st recursive call is over . So, we can reuse the space of
 1st call for 2nd call . Hence ,
 
+T(n) = T(n-1) + k
+T(0) = k
+T(1) = 2k
+T(2) = 3k
+T(3) = 4k
+So the space complexity is O(n).
+
+
 ````
 [Diellza Berisha](https://github.com/Dielllza1)
 [Ereblina Berisha](https://github.com/erblinaberisha)
