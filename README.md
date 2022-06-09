@@ -114,6 +114,11 @@ T(n) = 2^n – 1 (this is the equation which will give the number of disk moveme
  It is a GP series, and the sum is 2^n – 1
 
 T(n)= O( 2^n – 1) , or We can say time complexity is O(2^n) which is exponential.
+
+So it has exponential time complexity, for single increase in problem size the time
+required is double the previous one. This is computationally very expensive. Most of the
+recursive programs takes exponential time that is why it is very hard to write them
+iteratively.
 ````
 ### Space Complexity
 ````
@@ -128,6 +133,7 @@ T(1) = 2k
 T(2) = 3k
 T(3) = 4k
 So the space complexity is O(n).
+
 Here time complexity is exponential but space complexity is linear .
 
 
